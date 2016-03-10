@@ -1,0 +1,6 @@
+#:GATKReport.v1.1:1
+#:GATKTable:10:1:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:;
+#:GATKTable:_function_:Job logs for _function_
+jobName       exechosts  startTime      formattedStartTime     analysisName  iteration  intermediate  formattedDoneTime      runtime  doneTime     
+PipeLine-1_2  localhost  1457494611644  16-03-09 11:36:51:644  _function_            1  false         16-03-09 11:36:52:156      512  1457494612156
+

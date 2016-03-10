@@ -1,0 +1,35 @@
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/haplox/tmp
+INFO  14:13:14,874 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  14:13:14,914 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.5-0-ge91472d, Compiled 2016/03/09 03:16:47 
+INFO  14:13:14,917 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  14:13:14,918 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  14:13:14,924 HelpFormatter - Program Args: -T MuTect2 -I:tumor /haplox/users/guo/Github/DebugMutect2/src/ParallelMutect2/../../data/20160202-001_gdna_rg.bam -L /haplox/users/guo/Github/DebugMutect2/src/ParallelMutect2/.queue/scatterGather/pm2-1-sg/temp_02_of_70/scatter.intervals -R /haplox/ref/GATK/ucsc.hg19/ucsc.hg19.fasta --artifact_detection_mode -o /haplox/users/guo/Github/DebugMutect2/src/ParallelMutect2/.queue/scatterGather/pm2-1-sg/temp_02_of_70/20160202-001_gdna_rg.bam.vcf 
+INFO  14:13:15,005 HelpFormatter - Executing as guo@x02 on Linux 3.16.0-30-generic amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_66-b17. 
+INFO  14:13:15,006 HelpFormatter - Date/Time: 2016/03/10 14:13:14 
+INFO  14:13:15,006 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  14:13:15,006 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  14:13:15,627 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  14:13:15,840 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  14:13:15,849 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  14:13:15,961 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.11 
+INFO  14:13:16,075 IntervalUtils - Processing 16511 bp from intervals 
+INFO  14:13:16,997 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  14:13:17,050 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  14:13:17,050 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  14:13:17,051 ProgressMeter -                 |      processed |    time |         per 1M |           |   total | remaining 
+INFO  14:13:17,051 ProgressMeter -        Location | active regions | elapsed | active regions | completed | runtime |   runtime 
+INFO  14:13:17,302 MuTect2 - Using global mismapping rate of 45 => -4.5 in log10 likelihood units 
+Using AVX accelerated implementation of PairHMM
+INFO  14:13:20,604 VectorLoglessPairHMM - libVectorLoglessPairHMM unpacked successfully from GATK jar file 
+INFO  14:13:20,605 VectorLoglessPairHMM - Using vectorized implementation of PairHMM 
+INFO  14:13:48,424 ProgressMeter -   chr1:11288941             65.0    31.0 s            5.6 d        2.5%    20.6 m      20.0 m 
+INFO  14:14:18,658 ProgressMeter -   chr1:11289117             65.0    61.0 s           11.0 d        3.6%    28.4 m      27.4 m 
+INFO  14:14:48,877 ProgressMeter -   chr1:11290846            659.0    91.0 s           38.7 h        3.6%    42.2 m      40.6 m 
+INFO  14:15:18,896 ProgressMeter -   chr1:11291437            659.0     2.0 m           51.4 h        7.2%    28.1 m      26.1 m 
+INFO  14:15:49,002 ProgressMeter -   chr1:11292361           2049.0     2.5 m           20.6 h        8.4%    29.9 m      27.4 m 
+INFO  14:16:20,623 ProgressMeter -   chr1:11292361           2049.0     3.1 m           24.9 h        8.4%    36.2 m      33.2 m 
+INFO  14:16:50,632 ProgressMeter -   chr1:11293321           3802.0     3.6 m           15.6 h       10.6%    33.4 m      29.9 m 
+INFO  14:17:20,637 ProgressMeter -   chr1:11293672           3802.0     4.1 m           17.8 h       12.7%    31.8 m      27.7 m 
+INFO  14:17:50,641 ProgressMeter -   chr1:11294406           5928.0     4.6 m           12.8 h       15.0%    30.3 m      25.8 m 
+INFO  14:18:20,644 ProgressMeter -   chr1:11298146           8475.0     5.1 m           10.0 h       17.8%    28.4 m      23.4 m 
+INFO  14:18:50,679 ProgressMeter -   chr1:11298346           8475.0     5.6 m           10.9 h       18.5%    30.0 m      24.4 m 
